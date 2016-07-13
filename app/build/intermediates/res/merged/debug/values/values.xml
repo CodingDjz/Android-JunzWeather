@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/Java/Android%20Sapce/JunzWeather/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/E:/Java/Android%20Sapce/JunzWeather/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">君之天气</string>
+    <string name="city">市</string>
+    <string name="default_alarm_text">此界面表示没有此地信息\n作者谨中国人欢迎你！</string>
+    <string name="default_aqiquality">火星木信号</string>
+    <string name="default_aqivalue">999</string>
+    <string name="default_cityname">火星</string>
+    <string name="default_list_today_condition">极寒</string>
+    <string name="default_list_today_tempscope">-55°~-44°</string>
+    <string name="default_list_tomorrow_condition">陨石雨</string>
+    <string name="default_list_tomorrow_tempscope">-22°~11°</string>
+    <string name="default_list_ttomorrow_condition">沙尘暴</string>
+    <string name="default_list_ttomorrow_tempscope">3°~33°</string>
+    <string name="default_nowtemp">-55°</string>
+    <string name="default_weatherdesp">缺氧</string>
+    <string name="getWeatherInfoError">获取天气失败
+\n不是软件的锅！</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hint_message">城市名</string>
+    <string name="main_api_space">"  "</string>
+    <string name="mars">火星</string>
+    <string name="refresh_toast">刷新成功,您所在地区为</string>
+    <string name="search_text">搜索</string>
+    <string name="something_happened">发生了一些事</string>
+    <string name="today">今天</string>
+    <string name="tomorrow">明天</string>
+    <string name="ttmorrow">后天</string>
+    <string name="your_weather">你的天气！</string>
+    <!-- From: file:/E:/Java/Android%20Sapce/JunzWeather/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
