@@ -26,12 +26,12 @@
 ###5.每20分钟自动刷新天气信息
 
 每20分钟会自动更新天气信息。   
-此功能通过Server后台服务计时发送message到handler，再从handler启动server达到服务常驻目的。
+此功能通过Server后台服务计时发送message到主线程handler发送天气信息请求更新UI，再从handler启动server达到服务的定时功能。
 
 
 ###5.早七点和晚七点自动切换日/夜背景图片（模式）。
 
-实现同5，当前时间使用的Calendar类。
+使用的也是server服务，出于练习的目的，定时功能与5不同，使用的是handle.postdelay(task,time)达到定时切换功能。
 
 <br /><br />
 
