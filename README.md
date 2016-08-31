@@ -31,7 +31,7 @@
 
 ###5.早七点和晚七点自动切换日/夜背景图片（模式）。
 
-使用的也是server服务，出于练习的目的，定时功能与5不同，使用的是handle.postdelay(task,time)达到定时切换功能。
+使用的也是server服务，出于练习的目的，定时功能与5不同，使用的是handle.postdelayed(task,time)方法达到定时切换功能。
 
 <br /><br />
 
